@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://media.istockphoto.com/vectors/soccer-field-realistic-texture-of-a-green-lawn-soccer-background-vector-id1142584719?k=20&m=1142584719&s=612x612&w=0&h=g0kyKw9KMmyKXFo1beYvdE3IHBpor3TSI4exQPjKYY0=);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    border-style: solid;
+    background-color: forestgreen;
+
+}
+
+#rules {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+    text-align: center;
+    font-size: 10pt;
+    background-color: forestgreen;
+}
+
+#compareBtn {
+    display: flex;
+    padding: 3%;
+    margin-left: 45%;
+}
+
+#resetBtn {
+    display: flex;
+    padding: 10px;
+}
+
+#playerOne {
+    padding: 5px;
+    border: 1px solid #000;
+    height: 400px;
+    width: 15%;
+    float: left;
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+#playerTwo {
+    padding: 5px;
+    border: 1px solid #000;
+    height: 400px;
+    width: 15%;
+    float: right;
+    margin-right: 10%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
