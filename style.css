@@ -42,7 +42,7 @@ body {
 
 #playerOne {
     padding: 5px;
-    border: 1px solid #000;
+    border: 1px solid forestgreen;
     height: 400px;
     width: 15%;
     float: left;
@@ -53,7 +53,7 @@ body {
 
 #playerTwo {
     padding: 5px;
-    border: 1px solid #000;
+    border: 1px solid forestgreen;
     height: 400px;
     width: 15%;
     float: right;
