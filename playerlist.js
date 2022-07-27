@@ -1,6 +1,5 @@
 const players = [
     {
-        id: 1,
         Name: "Alan Shearer",
         Appearences: 441,
         Goals: 260,
@@ -8,7 +7,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1.png"
     },
     {
-        id: 2,
         Name: "Wayne Rooney",
         Appearences: 491,
         Goals: 208,
@@ -16,7 +14,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p13017.png"
     },
     {
-        id: 3,
         Name: "Andrew Cole",
         Appearences: 414,
         Goals: 187,
@@ -24,7 +21,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1820.png"
     },
     {
-        id: 4,
         Name: "Sergio Aguero",
         Appearences: 275,
         Goals: 184,
@@ -32,7 +28,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p37572.png"
     },
     {
-        id: 5,
         Name: "Harry Kane",
         Appearences: 282,
         Goals: 183,
@@ -40,7 +35,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p78830.png"
     },
     {
-        id: 6,
         Name: "Frank Lampard",
         Appearences: 609,
         Goals: 177,
@@ -48,7 +42,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p2051.png"
     },
     {
-        id: 7,
         Name: "Thierry Henry",
         Appearences: 258,
         Goals: 175,
@@ -56,7 +49,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1619.png"
     },
     {
-        id: 8,
         Name: "Robbie Fowler",
         Appearences: 379,
         Goals: 163,
@@ -64,7 +56,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1794.png"
     },
     {
-        id: 9,
         Name: "Jermaine Defoe",
         Appearences: 496,
         Goals: 162,
@@ -72,7 +63,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p7958.png"
     },
     {
-        id: 10,
         Name: "Michael Owen",
         Appearences: 326,
         Goals: 150,
@@ -80,7 +70,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1795.png"
     },
     {
-        id: 11,
         Name: "Les Ferdinand",
         Appearences: 351,
         Goals: 149,
@@ -88,7 +77,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1904.png"
     },
     {
-        id: 12,
         Name: "Teddy Sheringham",
         Appearences: 418,
         Goals: 146,
@@ -96,7 +84,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p520.png"
     },
     {
-        id: 13,
         Name: "Robin Van Persie",
         Appearences: 280,
         Goals: 144,
@@ -104,7 +91,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p12297.png"
     },
     {
-        id: 14,
         Name: "Jamie Vardy",
         Appearences: 270,
         Goals: 133,
@@ -112,7 +98,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p101668.png"
     },
     {
-        id: 15,
         Name: "Jimmy Floyd Hasselbaink",
         Appearences: 288,
         Goals: 127,
@@ -120,7 +105,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p4074.png"
     },
     {
-        id: 16,
         Name: "Robbie Keane",
         Appearences: 349,
         Goals: 126,
@@ -128,7 +112,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1710.png"
     },
     {
-        id: 17,
         Name: "Nicolas Anelka",
         Appearences: 364,
         Goals: 125,
@@ -136,7 +119,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p3897.png"
     },
     {
-        id: 18,
         Name: "Dwight Yorke",
         Appearences: 375,
         Goals: 123,
@@ -144,7 +126,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1829.png"
     },
     {
-        id: 19,
         Name: "Romelu Lukaku",
         Appearences: 278,
         Goals: 121,
@@ -152,7 +133,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p66749.png"
     },
     {
-        id: 20,
         Name: "Steven Gerrard",
         Appearences: 504,
         Goals: 120,
@@ -160,7 +140,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1814.pngg"
     },
     {
-        id: 21,
         Name: "Mohamed Salah",
         Appearences: 193,
         Goals: 120,
@@ -168,7 +147,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p118748.png"
     },
     {
-        id: 22,
         Name: "Ian Wright",
         Appearences: 213,
         Goals: 113,
@@ -176,7 +154,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p2070.png"
     },
     {
-        id: 23,
         Name: "Dion Dublin",
         Appearences: 312,
         Goals: 111,
@@ -184,7 +161,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1614.png"
     },
     {
-        id: 24,
         Name: "Sadio Mane",
         Appearences: 263,
         Goals: 111,
@@ -192,7 +168,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p110979.png"
     },
     {
-        id: 25,
         Name: "Emile Heskey",
         Appearences: 516,
         Goals: 110,
@@ -200,7 +175,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1765.png"
     },
     {
-        id: 26,
         Name: "Ryan Giggs",
         Appearences: 632,
         Goals: 109,
@@ -208,7 +182,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p3.png"
     },
     {
-        id: 27,
         Name: "Raheem Sterling",
         Appearences: 320,
         Goals: 109,
@@ -216,7 +189,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p103955.png"
     },
     {
-        id: 28,
         Name: "Peter Crouch",
         Appearences: 468,
         Goals: 108,
@@ -224,7 +196,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p3773.png"
     },
     {
-        id: 29,
         Name: "Paul Scholes",
         Appearences: 499,
         Goals: 107,
@@ -232,7 +203,6 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p363.png"
     },
     {
-        id: 30,
         Name: "Darren Bent",
         Appearences: 276,
         Goals: 106,
@@ -240,3 +210,95 @@ const players = [
         Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p10738.png"
     }
 ]
+
+//Desk Shuffler and dealer
+const playerData = players
+let playOneHand = [];
+let playTwoHand = [];
+
+function shuffleDeck() {
+    playerData.sort(() => Math.random() - 0.5)
+    console.log(playerData)
+    return playerData
+}
+shuffleDeck();
+
+for (i = 0; i < 30; i++) {
+    if ([i] % 2 != 0) {
+        playOneHand.push(playerData[i])
+    } else if ([i] % 2 == 0) {
+        playTwoHand.push(playerData[i])
+    }
+}
+
+//PlayerOne card attributes
+
+const playOneCard = document.getElementById('playerOne')
+const playerOneName = document.createElement('p')
+playerOneName.innerText = playOneHand[0].Name
+playOneCard.appendChild(playerOneName)
+
+const playerOneImage = document.createElement('IMG')
+playerOneImage.setAttribute("src", playOneHand[0].Image);
+playerOneImage.setAttribute("width", "200");
+playerOneImage.setAttribute("height", "200");
+playOneCard.appendChild(playerOneImage)
+
+const playerOneApps = document.createElement('p')
+playerOneApps.innerText = playOneHand[0].Appearences
+playOneCard.appendChild(playerOneApps)
+
+const playerOneGoals = document.createElement('p')
+playerOneGoals.innerText = playOneHand[0].Goals
+playOneCard.appendChild(playerOneGoals)
+
+const playerOneAssists = document.createElement('p')
+playerOneAssists.innerText = playOneHand[0].Assists
+playOneCard.appendChild(playerOneAssists)
+
+
+// //PlayerTwo Card Attributes
+
+const playTwoCard = document.getElementById('playerTwo')
+const playerTwoName = document.createElement('p')
+playerTwoName.innerText = playTwoHand[0].Name
+playTwoCard.appendChild(playerTwoName)
+
+const playerTwoImage = document.createElement('IMG')
+playerTwoImage.setAttribute("src", playTwoHand[0].Image);
+playerTwoImage.setAttribute("width", "200");
+playerTwoImage.setAttribute("height", "200");
+playTwoCard.appendChild(playerTwoImage)
+
+const playerTwoApps = document.createElement('p')
+playerTwoApps.innerText = playTwoHand[0].Appearences
+playTwoCard.appendChild(playerTwoApps)
+
+const playerTwoGoals = document.createElement('p')
+playerTwoGoals.innerText = playTwoHand[0].Goals
+playTwoCard.appendChild(playerTwoGoals)
+
+const playerTwoAssists = document.createElement('p')
+playerTwoAssists.innerText = playTwoHand[0].Assists
+playTwoCard.appendChild(playerTwoAssists)
+
+
+
+
+
+
+
+
+//Cards to HTML
+
+
+
+
+
+// Game Logic
+
+function compareAtt(playerOneAtt, playerTwoAtt) {
+    if (playerOneAtt > playerTwoAtt) {
+
+    }
+}

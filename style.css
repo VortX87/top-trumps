@@ -31,7 +31,7 @@ body {
 
 #compareBtn {
     display: flex;
-    padding: 3%;
+    padding: 1%;
     margin-left: 45%;
 }
 
@@ -40,11 +40,18 @@ body {
     padding: 10px;
 }
 
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
 #playerOne {
     padding: 5px;
     border: 1px solid forestgreen;
     height: 400px;
-    width: 15%;
+    width: 300px;
     float: left;
     margin-left: 10%;
     background-color: rgb(255, 255, 255);
@@ -55,7 +62,7 @@ body {
     padding: 5px;
     border: 1px solid forestgreen;
     height: 400px;
-    width: 15%;
+    width: 300px;
     float: right;
     margin-right: 10%;
     background-color: rgb(255, 255, 255);
