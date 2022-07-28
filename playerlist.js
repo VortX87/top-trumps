@@ -25,14 +25,14 @@ const players = [
         Appearences: 275,
         Goals: 184,
         Assists: 47,
-        Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p37572.png"
+        Image: "https://i2-prod.mirror.co.uk/incoming/article23817920.ece/ALTERNATES/s1200c/0_Champions-League-Group-C-Manchester-City-v-Atalanta.jpg"
     },
     {
         Name: "Harry Kane",
         Appearences: 282,
         Goals: 183,
         Assists: 43,
-        Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p78830.png"
+        Image: "https://i2-prod.football.london/incoming/article23321318.ece/ALTERNATES/s1200c/1_HKane-10.jpg"
     },
     {
         Name: "Frank Lampard",
@@ -60,7 +60,7 @@ const players = [
         Appearences: 496,
         Goals: 162,
         Assists: 33,
-        Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p7958.png"
+        Image: "https://www.thesun.co.uk/wp-content/uploads/2022/01/7dbda660-aea2-4e6c-92d3-52854f2640ab.jpg"
     },
     {
         Name: "Michael Owen",
@@ -95,7 +95,7 @@ const players = [
         Appearences: 270,
         Goals: 133,
         Assists: 40,
-        Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p101668.png"
+        Image: "https://s.hs-data.com/bilder/spieler/gross/201640.jpg"
     },
     {
         Name: "Jimmy Floyd Hasselbaink",
@@ -130,21 +130,21 @@ const players = [
         Appearences: 278,
         Goals: 121,
         Assists: 35,
-        Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p66749.png"
+        Image: "https://s.hs-data.com/bilder/spieler/gross/142964.jpg"
     },
     {
         Name: "Steven Gerrard",
         Appearences: 504,
         Goals: 120,
         Assists: 92,
-        Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1814.pngg"
+        Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p1814.png"
     },
     {
         Name: "Mohamed Salah",
         Appearences: 193,
         Goals: 120,
         Assists: 47,
-        Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p118748.png"
+        Image: "https://i2-prod.mirror.co.uk/incoming/article26678721.ece/ALTERNATES/s1200c/0_Mo-Salah-Liverpool.jpg"
     },
     {
         Name: "Ian Wright",
@@ -165,7 +165,7 @@ const players = [
         Appearences: 263,
         Goals: 111,
         Assists: 38,
-        Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p110979.png"
+        Image: "https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg5ODAyODQ0MTY4MTM2Mzgw/sadio-mane.jpg"
     },
     {
         Name: "Emile Heskey",
@@ -186,14 +186,14 @@ const players = [
         Appearences: 320,
         Goals: 109,
         Assists: 56,
-        Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p103955.png"
+        Image: "https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg2MDcyMTQ2NzIyNjk0Mjcz/raheem-sterling.jpg"
     },
     {
         Name: "Peter Crouch",
         Appearences: 468,
         Goals: 108,
         Assists: 58,
-        Image: "https://resources.premierleague.com/premierleague/photos/players/250x250/p3773.png"
+        Image: "https://s.hs-data.com/bilder/spieler/gross/9922.jpg"
     },
     {
         Name: "Paul Scholes",
@@ -218,7 +218,7 @@ let playTwoHand = [];
 
 function shuffleDeck() {
     playerData.sort(() => Math.random() - 0.5)
-    console.log(playerData)
+    // console.log(playerData)
     return playerData
 }
 shuffleDeck();
@@ -230,10 +230,15 @@ for (i = 0; i < 30; i++) {
         playTwoHand.push(playerData[i])
     }
 }
-
+//console.log(playOneHand, playTwoHand)
 //PlayerOne card attributes
 
 const playOneCard = document.getElementById('playerOne')
+
+const playerOneDeckSize = document.createElement('p')
+playerOneDeckSize.innerText = 'Your Cards: ' + playOneHand.length
+playOneCard.appendChild(playerOneDeckSize)
+
 const playerOneName = document.createElement('p')
 playerOneName.innerText = playOneHand[0].Name
 playOneCard.appendChild(playerOneName)
@@ -245,21 +250,26 @@ playerOneImage.setAttribute("height", "200");
 playOneCard.appendChild(playerOneImage)
 
 const playerOneApps = document.createElement('p')
-playerOneApps.innerText = playOneHand[0].Appearences
+playerOneApps.innerText = 'Appearences: ' + playOneHand[0].Appearences
 playOneCard.appendChild(playerOneApps)
 
 const playerOneGoals = document.createElement('p')
-playerOneGoals.innerText = playOneHand[0].Goals
+playerOneGoals.innerText = 'Goals: ' + playOneHand[0].Goals
 playOneCard.appendChild(playerOneGoals)
 
 const playerOneAssists = document.createElement('p')
-playerOneAssists.innerText = playOneHand[0].Assists
+playerOneAssists.innerText = 'Assists: ' + playOneHand[0].Assists
 playOneCard.appendChild(playerOneAssists)
 
 
 // //PlayerTwo Card Attributes
 
 const playTwoCard = document.getElementById('playerTwo')
+
+const playerTwoDeckSize = document.createElement('p')
+playerTwoDeckSize.innerText = 'Computers Cards: ' + playTwoHand.length
+playTwoCard.appendChild(playerTwoDeckSize)
+
 const playerTwoName = document.createElement('p')
 playerTwoName.innerText = playTwoHand[0].Name
 playTwoCard.appendChild(playerTwoName)
@@ -271,34 +281,132 @@ playerTwoImage.setAttribute("height", "200");
 playTwoCard.appendChild(playerTwoImage)
 
 const playerTwoApps = document.createElement('p')
-playerTwoApps.innerText = playTwoHand[0].Appearences
-playTwoCard.appendChild(playerTwoApps)
 
 const playerTwoGoals = document.createElement('p')
-playerTwoGoals.innerText = playTwoHand[0].Goals
-playTwoCard.appendChild(playerTwoGoals)
 
 const playerTwoAssists = document.createElement('p')
-playerTwoAssists.innerText = playTwoHand[0].Assists
-playTwoCard.appendChild(playerTwoAssists)
 
 
+//Buttons and Game Logic
+
+const appsButton = document.getElementById("compAppsBtn").addEventListener("click", compApps);
+const goalButton = document.getElementById("compGoalsBtn").addEventListener("click", compGoals);
+const assButton = document.getElementById("compAssistBtn").addEventListener("click", compAssists);
+
+const nextRound = document.getElementById("nextRoundBtn").addEventListener("click", nextTurn);
 
 
-
-
-
-
-//Cards to HTML
-
-
-
-
-
-// Game Logic
-
-function compareAtt(playerOneAtt, playerTwoAtt) {
-    if (playerOneAtt > playerTwoAtt) {
-
+function compApps() {
+    playerTwoApps.innerText = 'Appearences: ' + playTwoHand[0].Appearences
+    playTwoCard.appendChild(playerTwoApps)
+    if (playOneHand[0].Appearences > playTwoHand[0].Appearences) {
+        playOneHand.push(playOneHand[0])
+        playOneHand.push(playTwoHand[0])
+        playOneHand.shift()
+        playTwoHand.shift()
+        alert('Player1 wins this round')
+    } else if (playTwoHand[0].Appearences > playOneHand[0].Appearences) {
+        playTwoHand.push(playTwoHand[0])
+        playTwoHand.push(playOneHand[0])
+        playOneHand.shift()
+        playTwoHand.shift()
+        alert('Player2 wins this round')
+    } else if (playTwoHand[0].Appearences === playOneHand[0].Appearences) {
+        playTwoHand.push(playTwoHand[0])
+        playOneHand.push(playOneHand[0])
+        playOneHand.shift()
+        playTwoHand.shift()
+        alert('Its a draw, try again with your next player')
     }
+}
+console.log(playOneHand, playTwoHand)
+
+
+function compGoals() {
+    playerTwoGoals.innerText = 'Goals: ' + playTwoHand[0].Goals
+    playTwoCard.appendChild(playerTwoGoals)
+    if (playOneHand[0].Goals > playTwoHand[0].Goals) {
+        playOneHand.push(playOneHand[0])
+        playOneHand.push(playTwoHand[0])
+        playOneHand.shift()
+        playTwoHand.shift()
+        alert('Player1 wins this round')
+    } else if (playTwoHand[0].Goals > playOneHand[0].Goals) {
+        playTwoHand.push(playTwoHand[0])
+        playTwoHand.push(playOneHand[0])
+        playOneHand.shift()
+        playTwoHand.shift()
+        alert('Player2 wins this round')
+    } else if (playTwoHand[0].Goals === playOneHand[0].Goals) {
+        playTwoHand.push(playTwoHand[0])
+        playOneHand.push(playOneHand[0])
+        playOneHand.shift()
+        playTwoHand.shift()
+        alert('Its a draw, try again with your next player')
+    }
+}
+
+function compAssists() {
+    playerTwoAssists.innerText = 'Assists: ' + playTwoHand[0].Assists
+    playTwoCard.appendChild(playerTwoAssists)
+    if (playOneHand[0].Assists > playTwoHand[0].Assists) {
+        playOneHand.push(playOneHand[0])
+        playOneHand.push(playTwoHand[0])
+        playOneHand.shift()
+        playTwoHand.shift()
+        alert('Player1 wins this round')
+    } else if (playTwoHand[0].Assists > playOneHand[0].Assists) {
+        playTwoHand.push(playTwoHand[0])
+        playTwoHand.push(playOneHand[0])
+        playOneHand.shift()
+        playTwoHand.shift()
+        alert('Player2 wins this round')
+    } else if (playTwoHand[0].Assists === playOneHand[0].Assists) {
+        playTwoHand.push(playTwoHand[0])
+        playOneHand.push(playOneHand[0])
+        playOneHand.shift()
+        playTwoHand.shift()
+        alert('Its a draw, try again with your next player')
+    }
+}
+
+function nextTurn() {
+    playerOneDeckSize.innerText = 'Your Cards: ' + playOneHand.length
+    playerTwoDeckSize.innerText = 'Computers Cards: ' + playTwoHand.length
+    if (playOneHand.length === 30) {
+        alert("Player1 has won the game!!!!")
+    } else if (playTwoHand.length === 30) {
+        alert("Player2 has won the game!!!!")
+    }
+    playerTwoName.innerText = playTwoHand[0].Name
+    playTwoCard.appendChild(playerTwoName);
+    playerTwoImage.setAttribute("src", playTwoHand[0].Image);
+    playerTwoImage.setAttribute("width", "200");
+    playerTwoImage.setAttribute("height", "200");
+    playTwoCard.appendChild(playerTwoImage);
+    playerTwoApps.innerText = '';
+    playTwoCard.appendChild(playerTwoApps);
+    playerTwoGoals.innerText = '';
+    playTwoCard.appendChild(playerTwoGoals);
+    playerTwoAssists.innerText = ''
+    playTwoCard.appendChild(playerTwoAssists)
+    playerOneName.innerText = playOneHand[0].Name
+    playOneCard.appendChild(playerOneName)
+    playerOneImage.setAttribute("src", playOneHand[0].Image);
+    playerOneImage.setAttribute("width", "200");
+    playerOneImage.setAttribute("height", "200");
+    playOneCard.appendChild(playerOneImage)
+    playerOneApps.innerText = 'Appearences: ' + playOneHand[0].Appearences
+    playOneCard.appendChild(playerOneApps)
+    playerOneGoals.innerText = 'Goals: ' + playOneHand[0].Goals
+    playOneCard.appendChild(playerOneGoals)
+    playerOneAssists.innerText = 'Assists: ' + playOneHand[0].Assists
+    playOneCard.appendChild(playerOneAssists)
+}
+//Winning COndition
+
+if (playOneHand.length === 30) {
+    alert("Player1 has won the game!!!!")
+} else if (playTwoHand.length === 30) {
+    alert("Player2 has won the game!!!!")
 }
