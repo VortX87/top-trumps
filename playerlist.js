@@ -534,13 +534,4 @@ function nextTurn() {
     playOneCard.appendChild(playerOneWonG)
     playerOneLostG.innerText = 'Games Lost: ' + playOneHand[0].GamesLost
     playOneCard.appendChild(playerOneLostG)
-
-
 }
-// //Winning COndition
-
-// if (playOneHand.length === 30) {
-//     alert("Player1 has won the game!!!!")
-// } else if (playTwoHand.length === 30) {
-//     alert("Player2 has won the game!!!!")
-// }
