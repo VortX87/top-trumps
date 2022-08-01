@@ -41,6 +41,11 @@ body {
     margin-left: 38%;
     margin-top: 15px;
     border-radius: 10px;
+    border-color: white;
+    border-width: 5px;
+    background-color: rgb(10, 168, 50);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
 }
 
 
@@ -49,25 +54,72 @@ body {
     justify-content: space-evenly;
     margin-left: 30%;
     margin-right: 30%;
-    padding: 1%;
 }
 
 #compAppsBtn {
-    border-radius: 10px;
-    height: 50px;
-    width: 150px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    border-color: white;
+    border-width: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    background-image: url(https://m.media-amazon.com/images/I/3176cggwfoL._AC_.jpg);
+    background-size: 100%;
 }
 
+
 #compGoalsBtn {
-    border-radius: 10px;
-    height: 50px;
-    width: 150px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    border-color: white;
+    border-width: 5px;
+    background-color: rgb(10, 168, 50);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    background-image: url(https://m.media-amazon.com/images/I/3176cggwfoL._AC_.jpg);
+    background-size: 100%;
+
 }
 
 #compAssistBtn {
-    border-radius: 10px;
-    height: 50px;
-    width: 150px;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    border-color: white;
+    border-width: 5px;
+    background-color: rgb(10, 168, 50);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    background-image: url(https://m.media-amazon.com/images/I/3176cggwfoL._AC_.jpg);
+    background-size: 100%;
+}
+
+#compWonBtn {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    border-color: white;
+    border-width: 5px;
+    background-color: rgb(10, 168, 50);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    background-image: url(https://m.media-amazon.com/images/I/3176cggwfoL._AC_.jpg);
+    background-size: 100%;
+}
+
+#compLossBtn {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    border-color: white;
+    border-width: 5px;
+    background-color: rgb(10, 168, 50);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    background-image: url(https://m.media-amazon.com/images/I/3176cggwfoL._AC_.jpg);
+    background-size: 100%;
 }
 
 #playerOne {
